@@ -15,7 +15,7 @@
 
 header {
     background-color: var(--primary-color);
-    color: var(--accent2-color);
+    color: var(--secundary-color);
 }
 
 body {
@@ -74,6 +74,10 @@ article {
     bottom: 10px;
     background-color: var(--accent1-color);
     color: #fff;
+}
+
+.hero article {
+    position: absolute;
 }
 
 .hero article img {
