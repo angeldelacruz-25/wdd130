@@ -5,7 +5,7 @@
 }
 
 :root {
-    --primary-color: forestgreen;
+    --primary-color: #aa7444;
     --secundary-color: #f4a261;
     --accent1-color: darkslateblue;
     --accent2-color: #e9c46a;
@@ -16,6 +16,9 @@
 header {
     background-color: var(--primary-color);
     color: var(--secundary-color);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
 }
 
 body {
@@ -34,6 +37,23 @@ h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    text-decoration: none;
+}
+
+section img {
+    width: 250px;
+}
+
+section div {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
 }
 
 nav,
@@ -85,9 +105,27 @@ article {
     width: 125px;
 }
 
+.tour figure img {
+    width: 150px;
+}
+
+.tour div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+figcaption {
+    text-align: center;
+}
+
 h2 {
     text-align: center;
     background-color: var(--accent2-color);
     color: #fff;
     padding: 8px;
+}
+
+footer nav {
+    float: right;
 }
