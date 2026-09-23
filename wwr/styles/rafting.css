@@ -6,7 +6,7 @@
 
 :root {
     --primary-color: #aa7444;
-    --secundary-color: #f4a261;
+    --secundary-color: #75c3ff;
     --accent1-color: darkslateblue;
     --accent2-color: #e9c46a;
     --heading-font: 'times new roman', 'georgia', serif;
@@ -122,7 +122,7 @@ figcaption {
 h2 {
     text-align: center;
     background-color: var(--accent2-color);
-    color: #fff;
+    color: #000;
     padding: 8px;
 }
 
