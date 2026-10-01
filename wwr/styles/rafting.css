@@ -181,7 +181,7 @@ main {
 .contact-form form {
     display: grid;
     grid-template-columns: 80px 1fr;
-    gap: 10px;
+    gap: 5px;
     align-items: center;
 }
 
