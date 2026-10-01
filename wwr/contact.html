@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us: Angel Rafting Company</title>
+    <meta name="description"
+      content="About the Angel Rafting Company, where we provide the best white water rafting experiences for families and adventurers alike.">
+    <meta name="author" content="Angel De La Cruz">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
@@ -22,7 +25,7 @@
     </header>
     <main>
         <div class="info">
-            <h3>Contact Us</h3>
+            <h1>Contact Us</h1>
             <article>
                 <p>Angel Rafting Company</p>
                 <p>Av. Joaquin Aybar</p>
@@ -36,13 +39,12 @@
             <div class="map">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d242168.58320609972!2d-71.64230854567867!3d18.488907759698282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sdo!4v1790817707625!5m2!1ses-419!2sdo"
-                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  width="600" height="450" allowfullscreen="" loading="lazy"
                   referrerpolicy="strict-origin-when-cross-origin"></iframe>
             </div>
 
             <section class="contact-form">
                 <h2>Contact Us</h2>
-
                 <form>
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name" placeholder="Your name" required>
@@ -53,18 +55,19 @@
                     <fieldset>
                         <legend>Message Purpose</legend>
 
-                        <label>
-                            <input type="radio" name="purpose" value="general" required>
+                        <label for="general">
+                            <input type="radio" id="general" name="purpose" value="general"
+                              required>
                             General Inquiry
                         </label>
 
-                        <label>
-                            <input type="radio" name="purpose" value="reservation">
+                        <label for="reservation">
+                            <input type="radio" id="reservation" name="purpose" value="reservation">
                             Reservation Question
                         </label>
 
-                        <label>
-                            <input type="radio" name="purpose" value="suggestion">
+                        <label for="suggestion">
+                            <input type="radio" id="suggestion" name="purpose" value="suggestion">
                             Website Suggestion
                         </label>
                     </fieldset>
@@ -73,11 +76,10 @@
                     <textarea id="message" name="message" rows="5"
                       placeholder="Type here"></textarea>
 
-                    <label class="newsletter">
-                        <input type="checkbox" name="newsletter">
+                    <label for="newsletter">
+                        <input type="checkbox" id="newsletter" name="newsletter">
                         Please subscribe me to the monthly newsletter
                     </label>
-
                     <button type="submit">Get in Touch!</button>
                 </form>
             </section>
